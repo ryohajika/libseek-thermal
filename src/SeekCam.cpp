@@ -185,6 +185,16 @@ bool SeekCam::open_cam()
     return false;
 }
 
+// added from @hoehermann's work
+void save_frame_img(cv::Mat &frame, int frameId) {
+    cv::Mat dst;
+    dst.create(frame.rows, frame.cols, frame.type());
+    //normalize(frame, dst, 0, 65535, cv::NORM_MINMAX);
+    char outfile[256];
+    sprintf(outfile, "frame-%d.png", frameId);
+    cv::imwrite(outfile, dst);
+}
+
 bool SeekCam::get_frame()
 {
     /* request new frame */

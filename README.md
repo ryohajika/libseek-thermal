@@ -16,14 +16,14 @@ Seek Thermal CompactPRO example:
 ![Alt text](/doc/colormap_hot.png?raw=true "Colormap seek thermal pro")
 
 
-**NOTE: The library does not support absolute temperature readings since we don't know how. Any pull requests to fix this are welcome!**
-
+**NOTE: This repository includes some update on absolute template reading from [the awesome work done by @undera & @hoehermann](https://github.com/hoehermann/libseek-thermal/tree/temp-info_compact)!**
 
 ## Credits
 
 The code is based on ideas from the following repo's:
 * https://github.com/BjornVT/Masterproef.git
 * https://github.com/zougloub/libseek
+
 
 ## Build
 
