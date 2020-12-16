@@ -6,7 +6,7 @@
 #ifndef SEEK_THERMAL_PRO_H
 #define SEEK_THERMAL_PRO_H
 
-#include <opencv2/opencv.hpp>
+//#include <opencv2/opencv.hpp>
 #include "SeekCam.h"
 
 #define THERMAL_PRO_WIDTH       320

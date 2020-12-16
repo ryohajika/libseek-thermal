@@ -17,6 +17,7 @@ Seek Thermal CompactPRO example:
 
 
 **NOTE: This repository includes some update on absolute template reading from [the awesome work done by @undera & @hoehermann](https://github.com/hoehermann/libseek-thermal/tree/temp-info_compact)!**
+**ANOTHER NOTE: also this repo is a bit customized to work with [my openFrameworks addon](https://github.com/ryohajika/ofxSeekThermal)**
 
 ## Credits
 
