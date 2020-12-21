@@ -3,11 +3,13 @@
  *  Author: Maarten Vandersteegen
  */
 
+#pragma once
+
 #ifndef SEEK_CAM_H
 #define SEEK_CAM_H
 
-#include <opencv2/opencv.hpp>
-#include <opencv2/imgcodecs.hpp>
+#include "opencv2/opencv.hpp"
+#include "opencv2/imgcodecs.hpp"
 #include "SeekDevice.h"
 
 namespace LibSeek {

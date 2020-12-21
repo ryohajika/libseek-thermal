@@ -3,10 +3,12 @@
  *  Author: Maarten Vandersteegen
  */
 
+#pragma once
+
 #ifndef SEEK_THERMAL_H
 #define SEEK_THERMAL_H
 
-//#include <opencv2/opencv.hpp>
+#include "opencv2/opencv.hpp"
 #include "SeekCam.h"
 
 #define THERMAL_WIDTH       207
